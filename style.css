@@ -71,3 +71,13 @@ header {
     font-size: var(--fs-400);
     color: var(--clr-neutral-900);
 }
+
+.layout-grid {
+    margin: 2em 8em;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 2em;
+}
