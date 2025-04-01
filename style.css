@@ -35,3 +35,39 @@
 
 }
 
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: var(--ff-sans);
+    background: var(--clr-neutral-100);
+}
+
+header {
+    margin: 0 26em;
+    padding: 0;
+    text-align: center;
+}
+
+.wrapper h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: var(--fw-light);
+    color: var(--clr-neutral-900);
+}
+
+.wrapper span {
+    font-weight: var(--fw-bold);
+    color: var(--clr-neutral-900);
+}
+
+.wrapper p {
+    font-size: var(--fs-400);
+    color: var(--clr-neutral-900);
+}
