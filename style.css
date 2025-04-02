@@ -48,6 +48,8 @@ body {
     background: var(--clr-neutral-100);
 }
 
+
+
 header {
     margin: 0 26em;
     padding: 0;
@@ -126,5 +128,11 @@ header {
 
 .card4 {
     border-top-color: var(--clr-orange);
+}
+
+@media only screen and (max-width: 1000px) {
+    header {
+        margin: 5em 2em;
+    }
 }
 
